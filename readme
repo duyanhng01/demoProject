@@ -1,0 +1,18 @@
+"-Login bằng gmail
+-Login bằng tên tài khoản, mật khẩu
+login vào => show giao diện admin
+ko login => show giao diện bài viết active"
+"-Thêm bài viêt gồm bài viết có media (video, image)
+-Sửa bài viết
+-Xóa bài viết (Xóa thì chưa được xóa luôn)"
+"-Thêm user thì mới được cho login gmail...
+-Block thì không được login"
+"-Phân quyền theo từng user với từng chức năng
+-Role đăng bài viết thì chỉ được đăng bài
+-Role duyệt bài
+-Role xóa bài thì có chức năng xóa bài
+Quyền cao hơn như admin hay superadmin
+-Thì gồm tất cả các quyền về bài viết
+-Role admin gồm quyền thêm sửa xóa các user đã được thêm trừ xóa chức năng superadmin
+-Role superadmin gồm các quyền về xóa user"
+-Show bài viết active gồm các media đã được thêm vào
