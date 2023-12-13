@@ -7,7 +7,8 @@ include('functions.php');
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $password = $_POST['password'];
-
+//var_dump($password);
+//die ;
     if (loginUser($username, $password)) {
         $_SESSION['user_name'] = $username;
         header("Location: index.php");
